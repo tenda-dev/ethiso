@@ -15,7 +15,7 @@ services:
     ports:
       - 6400:4567
     command: ["rabbitmq", "payment-service-argent-client", "geth-docker-argent-client:8545", "The super secret password = wibble", "4567", "5678", "http://payment-service-argent:5678/config" ]
-    # entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "ethiso-payment-service-${project.version}", "com.iso.ie.ethiso.ethereum.PaymentServiceMain"]
+    # entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "ethiso-payment-service-${project.version}", "com.std.ie.ethiso.ethereum.PaymentServiceMain"]
     networks:
       argent-client:
       argent-testnet:

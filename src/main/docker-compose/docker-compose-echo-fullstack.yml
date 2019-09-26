@@ -12,7 +12,7 @@ services:
       - 5400:4567
       - 4001:4001
     command: ["rabbitmq", "dont-need-this", "geth-docker-a:8545", "The super secret password = wibble", "4567", "5678", "http://payment-service-b:5678/config"  ]
-    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "ethiso-payment-service-${project.version}.jar", "com.iso.ie.ethiso.ethereum.PaymentServiceMain"]
+    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "ethiso-payment-service-${project.version}.jar", "com.std.ie.ethiso.ethereum.PaymentServiceMain"]
     networks:
       echobot-test:
   
@@ -30,7 +30,7 @@ services:
       - 4000:4000
     networks:
       echobot-test:
-    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=y", "-cp", "ethiso-echobot-${project.version}.jar", "com.iso.ie.ethiso.echobot.EchoBot"]
+    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=y", "-cp", "ethiso-echobot-${project.version}.jar", "com.std.ie.ethiso.echobot.EchoBot"]
     command: ["rabbitmq", "payment-service-b", "echobic"]    
  
   payment-service-b:

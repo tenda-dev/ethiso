@@ -12,13 +12,13 @@
 		<appender-ref ref="STDOUT" />
 	</root>
 
-	<!--<logger name="com.iso.ie.jsonrpc.JsonRpcFactory" level="DEBUG" />-->
-	<!--<logger name="com.iso.ie.jsonrpc.JsonRpcResponse" level="DEBUG" />-->
+	<!--<logger name="com.std.ie.jsonrpc.JsonRpcFactory" level="DEBUG" />-->
+	<!--<logger name="com.std.ie.jsonrpc.JsonRpcResponse" level="DEBUG" />-->
 
-	<logger name="com.iso.ie.ethiso.ethereum.BlockPoller" level="DEBUG" />
+	<logger name="com.std.ie.ethiso.ethereum.BlockPoller" level="DEBUG" />
 
-	<logger name="com.iso.ie.ethiso.ethereum.PendingEvents" level="DEBUG" />
+	<logger name="com.std.ie.ethiso.ethereum.PendingEvents" level="DEBUG" />
 
-	<logger name="com.iso.ie.ethiso.ethereum.TransactionPoller" level="DEBUG" />
+	<logger name="com.std.ie.ethiso.ethereum.TransactionPoller" level="DEBUG" />
 
 </configuration>

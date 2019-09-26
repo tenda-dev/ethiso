@@ -8,6 +8,6 @@ COPY maven/*.jar /opt/${project.artifactId}/
 
 WORKDIR /opt/${project.artifactId}
 
-ENTRYPOINT ["/usr/bin/java", "-cp", "${project.artifactId}-${project.version}.jar", "com.iso.ie.ethiso.iso.Iso20022Broker"]
+ENTRYPOINT ["/usr/bin/java", "-cp", "${project.artifactId}-${project.version}.jar", "com.std.ie.ethiso.iso.Iso20022Broker"]
 
 CMD ["rabbitmq", "iso20022", "payment-service"]

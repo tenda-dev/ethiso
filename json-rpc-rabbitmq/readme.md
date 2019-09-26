@@ -4,7 +4,7 @@ A [RabbitMQ](https://www.rabbitmq.com) based transport. JSON-RPC messages are se
 
 ## Usage
 
-Create a [RabbitMQJsonRpcTransport](src/main/java/com/iso/ie/jsonrpc/rabbitmq/RabbitMQJsonRpcTransport.java) by passing in a *ConnectionFactory*:
+Create a [RabbitMQJsonRpcTransport](src/main/java/com/std/ie/jsonrpc/rabbitmq/RabbitMQJsonRpcTransport.java) by passing in a *ConnectionFactory*:
 
 ```java
 		final ConnectionFactory connectionFactory = new ConnectionFactory();

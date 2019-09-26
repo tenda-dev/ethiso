@@ -1,0 +1,11 @@
+com.std.ie.ethiso.ethereum.types.AddressTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.BoolTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.DynamicArrayTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.DynamicBytesTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.FixedTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.IntTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.StaticArrayTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.StaticBytesTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.StringTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.UFixedTypeConverterFactory
+com.std.ie.ethiso.ethereum.types.UIntTypeConverterFactory
