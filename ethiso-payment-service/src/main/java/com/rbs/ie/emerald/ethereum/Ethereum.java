@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
-import static com.rbs.ie.emerald.ethereum.Utils.DEFAULT_TIMEOUT;
-import static com.rbs.ie.emerald.ethereum.Utils.waitFor;
+import static com.rbs.ie.ethiso.ethereum.Utils.DEFAULT_TIMEOUT;
+import static com.rbs.ie.ethiso.ethereum.Utils.waitFor;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -41,13 +41,13 @@ import java.util.function.Consumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.rbs.ie.emerald.ethereum.TransactionPoller.TransactionAndReceipt;
-import com.rbs.ie.emerald.ethereum.rpc.Address;
-import com.rbs.ie.emerald.ethereum.rpc.CompilationResults;
-import com.rbs.ie.emerald.ethereum.rpc.EthereumRpc;
-import com.rbs.ie.emerald.ethereum.rpc.Quantity;
-import com.rbs.ie.emerald.ethereum.rpc.Transaction;
-import com.rbs.ie.emerald.ethereum.rpc.TransactionReceipt;
+import com.rbs.ie.ethiso.ethereum.TransactionPoller.TransactionAndReceipt;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.ethereum.rpc.CompilationResults;
+import com.rbs.ie.ethiso.ethereum.rpc.EthereumRpc;
+import com.rbs.ie.ethiso.ethereum.rpc.Quantity;
+import com.rbs.ie.ethiso.ethereum.rpc.Transaction;
+import com.rbs.ie.ethiso.ethereum.rpc.TransactionReceipt;
 import com.rbs.ie.jsonrpc.JsonRpcException;
 import com.rbs.ie.jsonrpc.JsonRpcFactory;
 import com.rbs.ie.jsonrpc.JsonRpcTransport;

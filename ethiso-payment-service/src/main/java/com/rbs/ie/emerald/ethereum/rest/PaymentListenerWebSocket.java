@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.rest;
+package com.rbs.ie.ethiso.ethereum.rest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rbs.ie.emerald.PaymentListener;
-import com.rbs.ie.emerald.PaymentService;
-import com.rbs.ie.emerald.domain.Bic;
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.domain.Iban;
+import com.rbs.ie.ethiso.PaymentListener;
+import com.rbs.ie.ethiso.PaymentService;
+import com.rbs.ie.ethiso.domain.Bic;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.domain.Iban;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketClose;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;

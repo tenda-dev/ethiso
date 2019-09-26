@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.types;
+package com.rbs.ie.ethiso.ethereum.types;
 
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterUtils.rpadZeroTo32;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterUtils.rpadZeroTo32;
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;

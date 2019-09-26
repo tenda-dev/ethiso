@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
-import static com.rbs.ie.emerald.DockerUtils.getDockerHostName;
-import static com.rbs.ie.emerald.domain.Bic.bic;
-import static com.rbs.ie.emerald.domain.Iban.iban;
+import static com.rbs.ie.ethiso.DockerUtils.getDockerHostName;
+import static com.rbs.ie.ethiso.domain.Bic.bic;
+import static com.rbs.ie.ethiso.domain.Iban.iban;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.Matchers.any;
@@ -48,10 +48,10 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
-import com.rbs.ie.emerald.PaymentListener;
-import com.rbs.ie.emerald.PaymentService;
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.iso.domain.CreditTransfer;
+import com.rbs.ie.ethiso.PaymentListener;
+import com.rbs.ie.ethiso.PaymentService;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.iso.domain.CreditTransfer;
 import com.rbs.ie.jsonrpc.JsonRpcFactory;
 import com.rbs.ie.jsonrpc.rabbitmq.RabbitMQJsonRpcTransport;
 

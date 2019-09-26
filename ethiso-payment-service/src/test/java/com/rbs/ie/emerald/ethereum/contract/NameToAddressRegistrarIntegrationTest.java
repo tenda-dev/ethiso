@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.contract;
+package com.rbs.ie.ethiso.ethereum.contract;
 
-import static com.rbs.ie.emerald.DockerUtils.getDockerHostName;
-import static com.rbs.ie.emerald.ethereum.TestConstants.ADDITIONAL_ACCOUNT;
+import static com.rbs.ie.ethiso.DockerUtils.getDockerHostName;
+import static com.rbs.ie.ethiso.ethereum.TestConstants.ADDITIONAL_ACCOUNT;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
@@ -34,9 +34,9 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.rbs.ie.emerald.ethereum.ContractProxy.Mode;
-import com.rbs.ie.emerald.ethereum.Ethereum;
-import com.rbs.ie.emerald.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.ethereum.ContractProxy.Mode;
+import com.rbs.ie.ethiso.ethereum.Ethereum;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
 import com.spotify.docker.client.DockerCertificateException;
 import com.spotify.docker.client.DockerException;
 

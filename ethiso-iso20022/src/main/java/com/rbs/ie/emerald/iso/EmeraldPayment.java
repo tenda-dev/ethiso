@@ -1,11 +1,11 @@
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
 import java.math.BigInteger;
 import java.util.Map;
 
-import com.rbs.ie.emerald.domain.Bic;
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.domain.Iban;
+import com.rbs.ie.ethiso.domain.Bic;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.domain.Iban;
 
 /*******************************************************************************
  * Copyright (c) 2016 Royal Bank of Scotland
@@ -22,7 +22,7 @@ import com.rbs.ie.emerald.domain.Iban;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-public class EmeraldPayment {
+public class ethisoPayment {
 
 	private Bic fromBic;
 	private Bic toBic;
@@ -32,7 +32,7 @@ public class EmeraldPayment {
 	private BigInteger amount;
 	private Map<String, Object> additionalProperties;
 
-	public EmeraldPayment(Bic fromBic, Bic toBic, Iban fromIban, Iban toIban, Currency currency, BigInteger amount,
+	public ethisoPayment(Bic fromBic, Bic toBic, Iban fromIban, Iban toIban, Currency currency, BigInteger amount,
 			Map<String, Object> additionalProperties) {
 		this.fromBic = fromBic;
 		this.toBic = toBic;
@@ -73,7 +73,7 @@ public class EmeraldPayment {
 
 	@Override
 	public String toString() {
-		return "EmeraldPayment{" + "fromBic=" + fromBic + ", toBic=" + toBic + ", fromIban=" + fromIban + ", toIban="
+		return "ethisoPayment{" + "fromBic=" + fromBic + ", toBic=" + toBic + ", fromIban=" + fromIban + ", toIban="
 				+ toIban + ", currency=" + currency + ", amount=" + amount + ", additionalProperties="
 				+ additionalProperties + '}';
 	}

@@ -15,7 +15,7 @@
  *******************************************************************************/
 
 
-package com.rbs.ie.emerald.iso.domain;
+package com.rbs.ie.ethiso.iso.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

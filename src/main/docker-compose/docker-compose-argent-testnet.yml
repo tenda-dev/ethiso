@@ -8,14 +8,14 @@ services:
 #Echobot stack
 
   echobot-argent:
-    image: emerald-echobot:${project.version}
+    image: ethiso-echobot:${project.version}
     networks:
       argent-testnet:
     command: ["rabbitmq-argent", "payment-service-argent", "echobic"]  
 
 
   payment-service-argent:
-    image: emerald-payment-service:${project.version}
+    image: ethiso-payment-service:${project.version}
     ports:
       - 5400:5678
     command: ["rabbitmq-argent", "payment-service-argent", "geth-docker-argent:8545", "The super secret password = wibble", "4567", "5678"]

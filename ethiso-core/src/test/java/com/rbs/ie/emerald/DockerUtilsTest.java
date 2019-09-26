@@ -1,6 +1,6 @@
-package com.rbs.ie.emerald;
+package com.rbs.ie.ethiso;
 
-import static com.rbs.ie.emerald.DockerUtils.getDockerHostName;
+import static com.rbs.ie.ethiso.DockerUtils.getDockerHostName;
 import static org.junit.Assert.*;
 
 import org.junit.Test;

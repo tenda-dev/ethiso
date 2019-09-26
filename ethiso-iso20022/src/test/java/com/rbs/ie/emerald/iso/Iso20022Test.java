@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
@@ -21,11 +21,11 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 import java.util.List;
 
-import com.rbs.ie.emerald.iso.domain.CreditTransfer;
+import com.rbs.ie.ethiso.iso.domain.CreditTransfer;
 import org.junit.Test;
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.rbs.ie.emerald.iso.domain.Pacs008;
+import com.rbs.ie.ethiso.iso.domain.Pacs008;
 
 public class Iso20022Test {
     private static final XmlMapper XML_MAPPER = new XmlMapper();

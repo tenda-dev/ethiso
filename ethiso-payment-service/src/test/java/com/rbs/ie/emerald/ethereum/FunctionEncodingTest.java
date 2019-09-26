@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
@@ -23,8 +23,8 @@ import java.math.BigInteger;
 
 import org.junit.Test;
 
-import com.rbs.ie.emerald.ethereum.rpc.Function;
-import com.rbs.ie.emerald.ethereum.rpc.Parameter;
+import com.rbs.ie.ethiso.ethereum.rpc.Function;
+import com.rbs.ie.ethiso.ethereum.rpc.Parameter;
 
 public class FunctionEncodingTest {
 

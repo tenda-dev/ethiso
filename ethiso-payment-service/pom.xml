@@ -4,12 +4,12 @@
 
 	<parent>
 		<groupId>com.rbs.ie</groupId>
-		<artifactId>emerald-parent</artifactId>
+		<artifactId>ethiso-parent</artifactId>
 		<version>1.1.4-SNAPSHOT</version>
-		<relativePath>../emerald-parent</relativePath>
+		<relativePath>../ethiso-parent</relativePath>
 	</parent>
 
-	<artifactId>emerald-payment-service</artifactId>
+	<artifactId>ethiso-payment-service</artifactId>
 
 	<properties>
 		<artifact.extension>jar</artifact.extension>
@@ -21,12 +21,12 @@
 
 		<dependency>
 			<groupId>com.rbs.ie</groupId>
-			<artifactId>emerald-api</artifactId>
+			<artifactId>ethiso-api</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>com.rbs.ie</groupId>
-			<artifactId>emerald-core</artifactId>
+			<artifactId>ethiso-core</artifactId>
 		</dependency>
 
 		<dependency>
@@ -180,7 +180,7 @@
 						</image>
 						<image>
 							<alias>payment-service-a</alias>
-							<name>emerald-payment-service:${project.version}</name>
+							<name>ethiso-payment-service:${project.version}</name>
 							<run>
 								<links>
 									<link>rabbit</link>
@@ -204,7 +204,7 @@
 						</image>
 						<image>
 							<alias>payment-service-b</alias>
-							<name>emerald-payment-service:${project.version}</name>
+							<name>ethiso-payment-service:${project.version}</name>
 							<run>
 								
 								<links>

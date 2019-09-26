@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,9 +27,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.rbs.ie.emerald.ethereum.rpc.EthereumRpc;
-import com.rbs.ie.emerald.ethereum.rpc.Transaction;
-import com.rbs.ie.emerald.ethereum.rpc.TransactionReceipt;
+import com.rbs.ie.ethiso.ethereum.rpc.EthereumRpc;
+import com.rbs.ie.ethiso.ethereum.rpc.Transaction;
+import com.rbs.ie.ethiso.ethereum.rpc.TransactionReceipt;
 import com.rbs.ie.jsonrpc.JsonRpcException;
 
 class TransactionPoller extends TimerTask {

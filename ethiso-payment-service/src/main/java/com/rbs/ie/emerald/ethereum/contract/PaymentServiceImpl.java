@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.contract;
+package com.rbs.ie.ethiso.ethereum.contract;
 
 import java.math.BigInteger;
 import java.util.Arrays;
@@ -27,24 +27,24 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-import com.rbs.ie.emerald.domain.Bic;
-import com.rbs.ie.emerald.ethereum.ContractProxy;
-import com.rbs.ie.emerald.ethereum.Ethereum;
+import com.rbs.ie.ethiso.domain.Bic;
+import com.rbs.ie.ethiso.ethereum.ContractProxy;
+import com.rbs.ie.ethiso.ethereum.Ethereum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rbs.ie.emerald.PaymentListener;
-import com.rbs.ie.emerald.PaymentService;
-import com.rbs.ie.emerald.TrustlineListener;
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.domain.Iban;
-import com.rbs.ie.emerald.domain.Party;
-import com.rbs.ie.emerald.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.PaymentListener;
+import com.rbs.ie.ethiso.PaymentService;
+import com.rbs.ie.ethiso.TrustlineListener;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.domain.Iban;
+import com.rbs.ie.ethiso.domain.Party;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
 
-import static com.rbs.ie.emerald.domain.Bic.bic;
-import static com.rbs.ie.emerald.domain.Iban.iban;
+import static com.rbs.ie.ethiso.domain.Bic.bic;
+import static com.rbs.ie.ethiso.domain.Iban.iban;
 
 public class PaymentServiceImpl extends ContractProxy implements PaymentService {
 

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
-import static com.rbs.ie.emerald.ethereum.ContractProxy.Mode.INSTALL;
-import static com.rbs.ie.emerald.ethereum.ContractProxy.Mode.WAIT;
-import static com.rbs.ie.emerald.ethereum.Utils.waitFor;
+import static com.rbs.ie.ethiso.ethereum.ContractProxy.Mode.INSTALL;
+import static com.rbs.ie.ethiso.ethereum.ContractProxy.Mode.WAIT;
+import static com.rbs.ie.ethiso.ethereum.Utils.waitFor;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,17 +31,17 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.rabbitmq.client.ConnectionFactory;
-import com.rbs.ie.emerald.PaymentListener;
-import com.rbs.ie.emerald.PaymentService;
-import com.rbs.ie.emerald.TrustlineListener;
-import com.rbs.ie.emerald.api.Configuration;
-import com.rbs.ie.emerald.api.ConfigurationService;
-import com.rbs.ie.emerald.ethereum.ContractProxy.Mode;
-import com.rbs.ie.emerald.ethereum.contract.GlobalRegistrar;
-import com.rbs.ie.emerald.ethereum.contract.NameToAddressRegistrar;
-import com.rbs.ie.emerald.ethereum.contract.PaymentServiceImpl;
-import com.rbs.ie.emerald.ethereum.rest.RestPaymentService;
-import com.rbs.ie.emerald.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.PaymentListener;
+import com.rbs.ie.ethiso.PaymentService;
+import com.rbs.ie.ethiso.TrustlineListener;
+import com.rbs.ie.ethiso.api.Configuration;
+import com.rbs.ie.ethiso.api.ConfigurationService;
+import com.rbs.ie.ethiso.ethereum.ContractProxy.Mode;
+import com.rbs.ie.ethiso.ethereum.contract.GlobalRegistrar;
+import com.rbs.ie.ethiso.ethereum.contract.NameToAddressRegistrar;
+import com.rbs.ie.ethiso.ethereum.contract.PaymentServiceImpl;
+import com.rbs.ie.ethiso.ethereum.rest.RestPaymentService;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
 import com.rbs.ie.jsonrpc.JsonRpcFactory;
 import com.rbs.ie.jsonrpc.http.HttpJsonRpcTransport;
 import com.rbs.ie.jsonrpc.rabbitmq.RabbitMQJsonRpcTransport;

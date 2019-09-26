@@ -16,11 +16,11 @@ test:
     - script-maven
   script:
     - mvn install
-    - grep "Total" emerald-test-coverage/target/site/jacoco-aggregate/index.html
+    - grep "Total" ethiso-test-coverage/target/site/jacoco-aggregate/index.html
   stage: test
   artifacts:
     paths:
-      - emerald-test-coverage/target/site/jacoco-aggregate
+      - ethiso-test-coverage/target/site/jacoco-aggregate
   environment: development
 
 deploy-argent-testnet:

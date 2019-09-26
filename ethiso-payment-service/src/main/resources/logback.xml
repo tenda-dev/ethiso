@@ -15,10 +15,10 @@
 	<!--<logger name="com.rbs.ie.jsonrpc.JsonRpcFactory" level="DEBUG" />-->
 	<!--<logger name="com.rbs.ie.jsonrpc.JsonRpcResponse" level="DEBUG" />-->
 
-	<logger name="com.rbs.ie.emerald.ethereum.BlockPoller" level="DEBUG" />
+	<logger name="com.rbs.ie.ethiso.ethereum.BlockPoller" level="DEBUG" />
 
-	<logger name="com.rbs.ie.emerald.ethereum.PendingEvents" level="DEBUG" />
+	<logger name="com.rbs.ie.ethiso.ethereum.PendingEvents" level="DEBUG" />
 
-	<logger name="com.rbs.ie.emerald.ethereum.TransactionPoller" level="DEBUG" />
+	<logger name="com.rbs.ie.ethiso.ethereum.TransactionPoller" level="DEBUG" />
 
 </configuration>

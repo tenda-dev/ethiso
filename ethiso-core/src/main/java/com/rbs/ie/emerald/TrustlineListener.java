@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald;
+package com.rbs.ie.ethiso;
 
 import java.math.BigInteger;
 
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.domain.Party;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.domain.Party;
 
 public interface TrustlineListener {
     void trustlineModified(Party them, Currency currency, BigInteger forwardLimit, BigInteger reverseLimit, BigInteger forwardAllow, BigInteger reverseAllow);

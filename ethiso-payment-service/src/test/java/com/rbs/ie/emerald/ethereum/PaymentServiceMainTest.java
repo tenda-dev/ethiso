@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
 import static org.junit.Assert.assertEquals;
 
@@ -25,8 +25,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rbs.ie.emerald.api.Configuration;
-import com.rbs.ie.emerald.api.ConfigurationService;
+import com.rbs.ie.ethiso.api.Configuration;
+import com.rbs.ie.ethiso.api.ConfigurationService;
 
 public class PaymentServiceMainTest {
 

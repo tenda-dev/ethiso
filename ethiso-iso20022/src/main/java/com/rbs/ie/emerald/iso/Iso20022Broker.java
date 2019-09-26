@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -25,8 +25,8 @@ import org.slf4j.LoggerFactory;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import com.rbs.ie.emerald.PaymentListener;
-import com.rbs.ie.emerald.PaymentService;
+import com.rbs.ie.ethiso.PaymentListener;
+import com.rbs.ie.ethiso.PaymentService;
 import com.rbs.ie.jsonrpc.JsonRpcFactory;
 import com.rbs.ie.jsonrpc.JsonRpcTransport;
 import com.rbs.ie.jsonrpc.rabbitmq.RabbitMQJsonRpcTransport;

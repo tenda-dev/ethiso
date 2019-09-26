@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald;
+package com.rbs.ie.ethiso;
 
 import java.math.BigInteger;
 import java.util.Map;
 import java.util.concurrent.Future;
 
-import com.rbs.ie.emerald.domain.Bic;
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.domain.Iban;
-import com.rbs.ie.emerald.domain.Party;
+import com.rbs.ie.ethiso.domain.Bic;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.domain.Iban;
+import com.rbs.ie.ethiso.domain.Party;
 
 public interface PaymentService {
 

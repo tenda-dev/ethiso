@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.types;
+package com.rbs.ie.ethiso.ethereum.types;
 
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.checkDeserialisationBounds;
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.checkSerialisationBounds;
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.deserialise;
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.serialise;
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.toArray;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.checkDeserialisationBounds;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.checkSerialisationBounds;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.deserialise;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.serialise;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.toArray;
 import static java.math.BigDecimal.ONE;
 import static java.math.BigDecimal.ZERO;
 import static org.junit.Assert.assertArrayEquals;

@@ -7,12 +7,12 @@ services:
 
 #Test Bank A stack
   payment-service-a:
-    image: emerald-payment-service:${project.version}
+    image: ethiso-payment-service:${project.version}
     ports:
       - 5400:4567
       - 4001:4001
     command: ["rabbitmq", "dont-need-this", "geth-docker-a:8545", "The super secret password = wibble", "4567", "5678", "http://payment-service-b:5678/config"  ]
-    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "emerald-payment-service-${project.version}.jar", "com.rbs.ie.emerald.ethereum.PaymentServiceMain"]
+    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "ethiso-payment-service-${project.version}.jar", "com.rbs.ie.ethiso.ethereum.PaymentServiceMain"]
     networks:
       echobot-test:
   
@@ -25,16 +25,16 @@ services:
 #Echobot stack
 
   echobot:
-    image: emerald-echobot:${project.version}
+    image: ethiso-echobot:${project.version}
     ports:
       - 4000:4000
     networks:
       echobot-test:
-    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=y", "-cp", "emerald-echobot-${project.version}.jar", "com.rbs.ie.emerald.echobot.EchoBot"]
+    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=y", "-cp", "ethiso-echobot-${project.version}.jar", "com.rbs.ie.ethiso.echobot.EchoBot"]
     command: ["rabbitmq", "payment-service-b", "echobic"]    
  
   payment-service-b:
-    image: emerald-payment-service:${project.version}
+    image: ethiso-payment-service:${project.version}
     ports:
       - 6400:4567
     command: ["rabbitmq", "payment-service-b", "geth-docker-b:8545", "The super secret password = wibble", "4567", "5678"]

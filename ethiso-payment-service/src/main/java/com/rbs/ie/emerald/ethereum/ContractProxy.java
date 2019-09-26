@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
-import static com.rbs.ie.emerald.ethereum.FunctionEncoding.getFunctionEncodings;
+import static com.rbs.ie.ethiso.ethereum.FunctionEncoding.getFunctionEncodings;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,9 +32,9 @@ import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rbs.ie.emerald.ethereum.rpc.Address;
-import com.rbs.ie.emerald.ethereum.rpc.Function;
-import com.rbs.ie.emerald.ethereum.rpc.TransactionReceipt;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.ethereum.rpc.Function;
+import com.rbs.ie.ethiso.ethereum.rpc.TransactionReceipt;
 
 public abstract class ContractProxy {
 

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.contract;
+package com.rbs.ie.ethiso.ethereum.contract;
 
-import com.rbs.ie.emerald.ethereum.ContractProxy;
-import com.rbs.ie.emerald.ethereum.Ethereum;
-import com.rbs.ie.emerald.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.ethereum.ContractProxy;
+import com.rbs.ie.ethiso.ethereum.Ethereum;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
 
 import java.util.concurrent.ExecutionException;
 

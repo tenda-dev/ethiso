@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.contract;
+package com.rbs.ie.ethiso.ethereum.contract;
 
-import static com.rbs.ie.emerald.DockerUtils.getDockerHostName;
-import static com.rbs.ie.emerald.domain.Bic.bic;
-import static com.rbs.ie.emerald.domain.Currency.GBP;
-import static com.rbs.ie.emerald.domain.Iban.iban;
+import static com.rbs.ie.ethiso.DockerUtils.getDockerHostName;
+import static com.rbs.ie.ethiso.domain.Bic.bic;
+import static com.rbs.ie.ethiso.domain.Currency.GBP;
+import static com.rbs.ie.ethiso.domain.Iban.iban;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
@@ -40,11 +40,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.rabbitmq.client.ConnectionFactory;
-import com.rbs.ie.emerald.PaymentListener;
-import com.rbs.ie.emerald.PaymentService;
-import com.rbs.ie.emerald.domain.Bic;
-import com.rbs.ie.emerald.domain.Iban;
-import com.rbs.ie.emerald.domain.Party;
+import com.rbs.ie.ethiso.PaymentListener;
+import com.rbs.ie.ethiso.PaymentService;
+import com.rbs.ie.ethiso.domain.Bic;
+import com.rbs.ie.ethiso.domain.Iban;
+import com.rbs.ie.ethiso.domain.Party;
 import com.rbs.ie.jsonrpc.JsonRpcFactory;
 import com.rbs.ie.jsonrpc.rabbitmq.RabbitMQJsonRpcTransport;
 import com.spotify.docker.client.DockerCertificateException;

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.contract;
+package com.rbs.ie.ethiso.ethereum.contract;
 
-import static com.rbs.ie.emerald.DockerUtils.getDockerHostName;
-import static com.rbs.ie.emerald.ethereum.ContractProxy.Mode.INSTALL;
-import static com.rbs.ie.emerald.ethereum.TestConstants.ADDITIONAL_ACCOUNT;
+import static com.rbs.ie.ethiso.DockerUtils.getDockerHostName;
+import static com.rbs.ie.ethiso.ethereum.ContractProxy.Mode.INSTALL;
+import static com.rbs.ie.ethiso.ethereum.TestConstants.ADDITIONAL_ACCOUNT;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -33,12 +33,12 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.rbs.ie.emerald.PaymentService;
-import com.rbs.ie.emerald.domain.Bic;
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.domain.Iban;
-import com.rbs.ie.emerald.domain.Party;
-import com.rbs.ie.emerald.ethereum.Ethereum;
+import com.rbs.ie.ethiso.PaymentService;
+import com.rbs.ie.ethiso.domain.Bic;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.domain.Iban;
+import com.rbs.ie.ethiso.domain.Party;
+import com.rbs.ie.ethiso.ethereum.Ethereum;
 import com.spotify.docker.client.DockerCertificateException;
 import com.spotify.docker.client.DockerException;
 

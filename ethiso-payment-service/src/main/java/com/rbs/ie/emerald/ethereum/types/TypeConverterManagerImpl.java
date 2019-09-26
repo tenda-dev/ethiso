@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.types;
+package com.rbs.ie.ethiso.ethereum.types;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,7 +28,7 @@ public class TypeConverterManagerImpl implements TypeConverterManager {
 	private final Map<String, TypeConverter<?>> typeConverters = new HashMap<>();
 
 	/* (non-Javadoc)
-	 * @see com.rbs.ie.emerald.ethereum.types.TypeConverterManager#getTypeConverter(java.lang.String)
+	 * @see com.rbs.ie.ethiso.ethereum.types.TypeConverterManager#getTypeConverter(java.lang.String)
 	 */
 	@Override
 	public TypeConverter<?> getTypeConverter(final String type) {

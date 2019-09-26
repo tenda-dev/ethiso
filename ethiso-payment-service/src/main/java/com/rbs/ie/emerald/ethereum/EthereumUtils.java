@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -21,11 +21,11 @@ import java.security.Security;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
-import com.rbs.ie.emerald.ethereum.rpc.Function;
-import com.rbs.ie.emerald.ethereum.rpc.Parameter;
-import com.rbs.ie.emerald.ethereum.types.TypeConverter;
-import com.rbs.ie.emerald.ethereum.types.TypeConverterManager;
-import com.rbs.ie.emerald.ethereum.types.TypeConverterManagerImpl;
+import com.rbs.ie.ethiso.ethereum.rpc.Function;
+import com.rbs.ie.ethiso.ethereum.rpc.Parameter;
+import com.rbs.ie.ethiso.ethereum.types.TypeConverter;
+import com.rbs.ie.ethiso.ethereum.types.TypeConverterManager;
+import com.rbs.ie.ethiso.ethereum.types.TypeConverterManagerImpl;
 
 public class EthereumUtils {
 

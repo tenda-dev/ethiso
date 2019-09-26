@@ -16,7 +16,7 @@ services:
       - WS_SECRET=5d48c7aa-9b96-4d3c-bb9a-cd085998ccd9
       
   ethstats-server-argent:
-    image: emerald-ethstats:${project.version}
+    image: ethiso-ethstats:${project.version}
     environment: 
       - RPC_PORT=8545
       - RPC_HOST=geth-docker-argent

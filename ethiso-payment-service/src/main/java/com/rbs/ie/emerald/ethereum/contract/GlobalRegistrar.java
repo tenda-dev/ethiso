@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.contract;
+package com.rbs.ie.ethiso.ethereum.contract;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -24,13 +24,13 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.Properties;
 
-import com.rbs.ie.emerald.ethereum.ContractProxy;
-import com.rbs.ie.emerald.ethereum.Ethereum;
-import com.rbs.ie.emerald.ethereum.PaymentServiceMain;
+import com.rbs.ie.ethiso.ethereum.ContractProxy;
+import com.rbs.ie.ethiso.ethereum.Ethereum;
+import com.rbs.ie.ethiso.ethereum.PaymentServiceMain;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.rbs.ie.emerald.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
 
 public class GlobalRegistrar extends NameToAddressRegistrar {
 

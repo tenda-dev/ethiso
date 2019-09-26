@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald;
+package com.rbs.ie.ethiso;
 
 import java.math.BigInteger;
 import java.util.Map;
 
-import com.rbs.ie.emerald.domain.Bic;
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.domain.Iban;
+import com.rbs.ie.ethiso.domain.Bic;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.domain.Iban;
 
 public interface PaymentListener {
     void paymentReceived(Bic fromBic, Bic toBic, Iban fromIban, Iban toIban, Currency currency, BigInteger paymentAmount, Map<String, Object> additionalProperties);

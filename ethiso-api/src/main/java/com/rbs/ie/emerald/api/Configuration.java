@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.api;
+package com.rbs.ie.ethiso.api;
 
 public class Configuration {
 	private String enode;

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
-import static com.rbs.ie.emerald.DockerUtils.getDockerHostName;
-import static com.rbs.ie.emerald.ethereum.FunctionEncoding.getFunctionEncodings;
-import static com.rbs.ie.emerald.ethereum.TestConstants.ADDITIONAL_ACCOUNT;
+import static com.rbs.ie.ethiso.DockerUtils.getDockerHostName;
+import static com.rbs.ie.ethiso.ethereum.FunctionEncoding.getFunctionEncodings;
+import static com.rbs.ie.ethiso.ethereum.TestConstants.ADDITIONAL_ACCOUNT;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -38,10 +38,10 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.rbs.ie.emerald.ethereum.contract.NameToAddressRegistrarIntegrationTest;
-import com.rbs.ie.emerald.ethereum.rpc.CompilationResult;
-import com.rbs.ie.emerald.ethereum.rpc.CompilationResults;
-import com.rbs.ie.emerald.ethereum.rpc.TransactionReceipt;
+import com.rbs.ie.ethiso.ethereum.contract.NameToAddressRegistrarIntegrationTest;
+import com.rbs.ie.ethiso.ethereum.rpc.CompilationResult;
+import com.rbs.ie.ethiso.ethereum.rpc.CompilationResults;
+import com.rbs.ie.ethiso.ethereum.rpc.TransactionReceipt;
 import com.spotify.docker.client.DockerCertificateException;
 import com.spotify.docker.client.DockerException;
 

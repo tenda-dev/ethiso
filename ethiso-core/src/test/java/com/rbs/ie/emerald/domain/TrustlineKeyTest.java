@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.domain;
+package com.rbs.ie.ethiso.domain;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 
-import static com.rbs.ie.emerald.domain.Currency.EUR;
+import static com.rbs.ie.ethiso.domain.Currency.EUR;
 import static org.junit.Assert.assertThat;
 
 public class TrustlineKeyTest {

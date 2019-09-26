@@ -14,13 +14,13 @@
  * limitations under the License.
  *******************************************************************************/
 
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.rbs.ie.emerald.iso.domain.Assignment;
-import com.rbs.ie.emerald.iso.domain.Camt029;
-import com.rbs.ie.emerald.iso.domain.TransactionInformationAndStatus;
+import com.rbs.ie.ethiso.iso.domain.Assignment;
+import com.rbs.ie.ethiso.iso.domain.Camt029;
+import com.rbs.ie.ethiso.iso.domain.TransactionInformationAndStatus;
 import org.junit.Test;
 
 import java.io.IOException;

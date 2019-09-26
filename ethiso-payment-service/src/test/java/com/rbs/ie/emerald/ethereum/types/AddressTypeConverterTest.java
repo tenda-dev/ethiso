@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.types;
+package com.rbs.ie.ethiso.ethereum.types;
 
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.deserialise;
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.serialise;
-import static com.rbs.ie.emerald.ethereum.types.TypeConverterTestUtils.toArray;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.deserialise;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.serialise;
+import static com.rbs.ie.ethiso.ethereum.types.TypeConverterTestUtils.toArray;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.rbs.ie.emerald.ethereum.rpc.Address;
+import com.rbs.ie.ethiso.ethereum.rpc.Address;
 
 public class AddressTypeConverterTest {
 

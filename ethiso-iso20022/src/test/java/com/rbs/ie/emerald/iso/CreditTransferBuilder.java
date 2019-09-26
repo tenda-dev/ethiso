@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
 import java.math.BigDecimal;
 
-import com.rbs.ie.emerald.iso.domain.Account;
-import com.rbs.ie.emerald.iso.domain.AccountId;
-import com.rbs.ie.emerald.iso.domain.Agent;
-import com.rbs.ie.emerald.iso.domain.Amount;
-import com.rbs.ie.emerald.iso.domain.CreditTransfer;
-import com.rbs.ie.emerald.iso.domain.EntityId;
-import com.rbs.ie.emerald.iso.domain.FinancialInstituionId;
-import com.rbs.ie.emerald.iso.domain.Party;
-import com.rbs.ie.emerald.iso.domain.PartyId;
-import com.rbs.ie.emerald.iso.domain.PaymentId;
+import com.rbs.ie.ethiso.iso.domain.Account;
+import com.rbs.ie.ethiso.iso.domain.AccountId;
+import com.rbs.ie.ethiso.iso.domain.Agent;
+import com.rbs.ie.ethiso.iso.domain.Amount;
+import com.rbs.ie.ethiso.iso.domain.CreditTransfer;
+import com.rbs.ie.ethiso.iso.domain.EntityId;
+import com.rbs.ie.ethiso.iso.domain.FinancialInstituionId;
+import com.rbs.ie.ethiso.iso.domain.Party;
+import com.rbs.ie.ethiso.iso.domain.PartyId;
+import com.rbs.ie.ethiso.iso.domain.PaymentId;
 
 public class CreditTransferBuilder {
 	private CreditTransfer creditTransfer = new CreditTransfer();

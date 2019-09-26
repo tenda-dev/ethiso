@@ -1,6 +1,6 @@
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
-import static com.rbs.ie.emerald.iso.Iso20022Broker.EXCHANGE;
+import static com.rbs.ie.ethiso.iso.Iso20022Broker.EXCHANGE;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.IOException;
@@ -13,13 +13,13 @@ import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
-import com.rbs.ie.emerald.PaymentService;
-import com.rbs.ie.emerald.iso.domain.CodeOrProprietary;
-import com.rbs.ie.emerald.iso.domain.CreditTransfer;
-import com.rbs.ie.emerald.iso.domain.CreditTransferStatus;
-import com.rbs.ie.emerald.iso.domain.PaymentId;
-import com.rbs.ie.emerald.iso.domain.Status;
-import com.rbs.ie.emerald.iso.domain.StatusReasonInfo;
+import com.rbs.ie.ethiso.PaymentService;
+import com.rbs.ie.ethiso.iso.domain.CodeOrProprietary;
+import com.rbs.ie.ethiso.iso.domain.CreditTransfer;
+import com.rbs.ie.ethiso.iso.domain.CreditTransferStatus;
+import com.rbs.ie.ethiso.iso.domain.PaymentId;
+import com.rbs.ie.ethiso.iso.domain.Status;
+import com.rbs.ie.ethiso.iso.domain.StatusReasonInfo;
 
 /*******************************************************************************
  * Copyright (c) 2016 Royal Bank of Scotland
@@ -59,7 +59,7 @@ public class CreditTransferConsumer extends DefaultConsumer {
 		try {
 			final CreditTransfer creditTransfer = getCreditTransfer(body);
 
-			final EmeraldPayment payment = converter.convert(creditTransfer);
+			final ethisoPayment payment = converter.convert(creditTransfer);
 
 			LOGGER.info("Sending " + payment);
 

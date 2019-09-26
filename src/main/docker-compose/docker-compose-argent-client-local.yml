@@ -11,11 +11,11 @@ services:
 #client stack
 
   payment-service-argent-client:
-    image: emerald-payment-service:${project.version}
+    image: ethiso-payment-service:${project.version}
     ports:
       - 6400:4567
     command: ["rabbitmq", "payment-service-argent-client", "geth-docker-argent-client:8545", "The super secret password = wibble", "4567", "5678", "http://payment-service-argent:5678/config" ]
-    # entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "emerald-payment-service-${project.version}", "com.rbs.ie.emerald.ethereum.PaymentServiceMain"]
+    # entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "ethiso-payment-service-${project.version}", "com.rbs.ie.ethiso.ethereum.PaymentServiceMain"]
     networks:
       argent-client:
       argent-testnet:

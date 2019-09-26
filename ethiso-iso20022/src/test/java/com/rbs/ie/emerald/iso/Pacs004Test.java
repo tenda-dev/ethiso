@@ -14,11 +14,11 @@
  * limitations under the License.
  *******************************************************************************/
 
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.rbs.ie.emerald.iso.domain.PaymentReturn;
-import com.rbs.ie.emerald.iso.domain.Pacs004;
+import com.rbs.ie.ethiso.iso.domain.PaymentReturn;
+import com.rbs.ie.ethiso.iso.domain.Pacs004;
 import org.junit.Test;
 
 import java.io.IOException;

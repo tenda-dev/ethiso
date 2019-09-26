@@ -1,14 +1,14 @@
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
-import static com.rbs.ie.emerald.domain.Bic.bic;
-import static com.rbs.ie.emerald.domain.Iban.iban;
+import static com.rbs.ie.ethiso.domain.Bic.bic;
+import static com.rbs.ie.ethiso.domain.Iban.iban;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Map;
 
-import com.rbs.ie.emerald.domain.Currency;
-import com.rbs.ie.emerald.iso.domain.CreditTransfer;
+import com.rbs.ie.ethiso.domain.Currency;
+import com.rbs.ie.ethiso.iso.domain.CreditTransfer;
 
 /*******************************************************************************
  * Copyright (c) 2016 Royal Bank of Scotland
@@ -27,7 +27,7 @@ import com.rbs.ie.emerald.iso.domain.CreditTransfer;
  *******************************************************************************/
 public class CreditTransferConverter {
 
-	public EmeraldPayment convert(CreditTransfer creditTransfer) {
+	public ethisoPayment convert(CreditTransfer creditTransfer) {
 		final String from = creditTransfer.getDebtorAccount().getId().getIban();
 		final String to = creditTransfer.getCreditorAccount().getId().getIban();
 
@@ -45,6 +45,6 @@ public class CreditTransferConverter {
 
 		final Map<String, Object> additionalProperties = creditTransfer.getAdditionalProperties();
 
-		return new EmeraldPayment(bic(fromBic), bic(toBic), iban(from), iban(to), ccy, amount, additionalProperties);
+		return new ethisoPayment(bic(fromBic), bic(toBic), iban(from), iban(to), ccy, amount, additionalProperties);
 	}
 }

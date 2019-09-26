@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
 import java.net.InetAddress;
 import java.net.MalformedURLException;
@@ -25,8 +25,8 @@ import java.net.UnknownHostException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.rbs.ie.emerald.api.Configuration;
-import com.rbs.ie.emerald.api.ConfigurationService;
+import com.rbs.ie.ethiso.api.Configuration;
+import com.rbs.ie.ethiso.api.ConfigurationService;
 
 public class ConfigurationServiceImpl implements ConfigurationService {
 

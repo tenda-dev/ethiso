@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
-import static com.rbs.ie.emerald.ethereum.EthereumUtils.getFunctionSignatureHash;
-import static com.rbs.ie.emerald.ethereum.EthereumUtils.getTypeConverter;
+import static com.rbs.ie.ethiso.ethereum.EthereumUtils.getFunctionSignatureHash;
+import static com.rbs.ie.ethiso.ethereum.EthereumUtils.getTypeConverter;
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
@@ -26,11 +26,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.rbs.ie.emerald.ethereum.rpc.Function;
-import com.rbs.ie.emerald.ethereum.rpc.LogEntry;
-import com.rbs.ie.emerald.ethereum.rpc.Parameter;
-import com.rbs.ie.emerald.ethereum.types.TypeConverter;
-import com.rbs.ie.emerald.ethereum.types.UIntTypeConverter;
+import com.rbs.ie.ethiso.ethereum.rpc.Function;
+import com.rbs.ie.ethiso.ethereum.rpc.LogEntry;
+import com.rbs.ie.ethiso.ethereum.rpc.Parameter;
+import com.rbs.ie.ethiso.ethereum.types.TypeConverter;
+import com.rbs.ie.ethiso.ethereum.types.UIntTypeConverter;
 
 public class FunctionEncoding {
 

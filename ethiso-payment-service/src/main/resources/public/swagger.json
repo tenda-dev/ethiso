@@ -2,7 +2,7 @@
     "swagger": "2.0",
     "info": {
         "title": "Payment Service API",
-        "description": "These methods provide access to the Emerald payments API.",
+        "description": "These methods provide access to the ethiso payments API.",
         "version": "1.0.0"
     },
     "schemes": [

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
 public interface TestConstants {
 	String ADDITIONAL_ACCOUNT = "0x8378791f1e2d890885558bc998bee8b5cb3b27c7";

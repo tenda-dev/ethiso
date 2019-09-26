@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum.rest;
+package com.rbs.ie.ethiso.ethereum.rest;
 
-import com.rbs.ie.emerald.domain.Bic;
+import com.rbs.ie.ethiso.domain.Bic;
 
 public class RegisterBicBody {
 	private Bic bic;

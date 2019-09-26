@@ -1,4 +1,4 @@
-package com.rbs.ie.emerald.iso;
+package com.rbs.ie.ethiso.iso;
 
 /*******************************************************************************
  * Copyright (c) 2016 Royal Bank of Scotland
@@ -19,8 +19,8 @@ package com.rbs.ie.emerald.iso;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.rbs.ie.emerald.iso.domain.Assignment;
-import com.rbs.ie.emerald.iso.domain.Camt056;
+import com.rbs.ie.ethiso.iso.domain.Assignment;
+import com.rbs.ie.ethiso.iso.domain.Camt056;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -30,7 +30,7 @@ import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
 import static org.junit.Assert.assertEquals;
-import com.rbs.ie.emerald.iso.domain.TransactionInformationAndStatus;
+import com.rbs.ie.ethiso.iso.domain.TransactionInformationAndStatus;
 
 public class Camt056Test {
 	private static final XmlMapper XML_MAPPER = new XmlMapper();

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.rbs.ie.emerald.ethereum;
+package com.rbs.ie.ethiso.ethereum;
 
 import java.util.List;
 import java.util.TimerTask;
@@ -22,8 +22,8 @@ import java.util.function.Consumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.rbs.ie.emerald.ethereum.rpc.BlockInfo;
-import com.rbs.ie.emerald.ethereum.rpc.EthereumRpc;
+import com.rbs.ie.ethiso.ethereum.rpc.BlockInfo;
+import com.rbs.ie.ethiso.ethereum.rpc.EthereumRpc;
 
 public class BlockPoller extends TimerTask {
 
