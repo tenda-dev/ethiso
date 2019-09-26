@@ -6,4 +6,4 @@ COPY maven/${project.artifactId}-${project.version}.jar /opt/${project.artifactI
 
 WORKDIR /opt/${project.artifactId}
 
-ENTRYPOINT ["/usr/bin/java", "-cp", "${project.artifactId}-${project.version}.jar", "com.rbs.ie.ethiso.ethereum.PaymentServiceMain"]
+ENTRYPOINT ["/usr/bin/java", "-cp", "${project.artifactId}-${project.version}.jar", "com.iso.ie.ethiso.ethereum.PaymentServiceMain"]

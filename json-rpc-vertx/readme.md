@@ -4,7 +4,7 @@ A [Vert.x](http://vertx.io) based transport. JSON-RPC messages are sent over the
 
 ## Usage
 
-Create an [EventBusJsonRpcTransport](src/main/java/com/rbs/ie/jsonrpc/vertx/EventBusJsonRpcTransport.java) by passing in a *Vertx* instance and an address:
+Create an [EventBusJsonRpcTransport](src/main/java/com/iso/ie/jsonrpc/vertx/EventBusJsonRpcTransport.java) by passing in a *Vertx* instance and an address:
 
 ```java
 		final Vertx vertx = Vertx.vertx();

@@ -1,10 +1,10 @@
 # json-rpc-core
 
-This package contains code that allows you to convert a java interface in to [JSON-RPC 2.0](http://www.jsonrpc.org/specification) messages and vice versa. It makes it simple to make RPC calls over a given [JsonRpcTransport](src/main/java/com/rbs/ie/jsonrpc/JsonRpcTransport.java). This package includes an in-memory version as a demonstration (The in-memory version just provides an easy testing mechanism. It is envisages that most uses will be over some kind of messaging layer).
+This package contains code that allows you to convert a java interface in to [JSON-RPC 2.0](http://www.jsonrpc.org/specification) messages and vice versa. It makes it simple to make RPC calls over a given [JsonRpcTransport](src/main/java/com/iso/ie/jsonrpc/JsonRpcTransport.java). This package includes an in-memory version as a demonstration (The in-memory version just provides an easy testing mechanism. It is envisages that most uses will be over some kind of messaging layer).
 
 ## Usage
 
-Start by creating an [InMemoryJsonRpcTransport](src/main/java/com/rbs/ie/jsonrpc/InMemoryJsonRpcTransport.java) and a [JsonRpcFactory](src/main/java/com/rbs/ie/jsonrpc/JsonRpcFactory.java):
+Start by creating an [InMemoryJsonRpcTransport](src/main/java/com/iso/ie/jsonrpc/InMemoryJsonRpcTransport.java) and a [JsonRpcFactory](src/main/java/com/iso/ie/jsonrpc/JsonRpcFactory.java):
 
 ```java
 		final JsonRpcTransport transport = new InMemoryJsonRpcTransport("A unique address");
@@ -43,6 +43,6 @@ Another feature present in the library is the ability to register callback types
 		jsonRpcFactory.registerCallbackType(Function.class);
 ```
 
-This changes the default behaviour of serializing all arguments using [Jackson Databind](https://github.com/FasterXML/jackson-databind). Instead the client registers a service using a derived transport (e.g. when using a pub / sub messaging system this would create a new channel name to send messages on). It then sends an address identifier that can be used to create a client on the server side. Examples can be seen in the [InMemoryIntegrationTest](src/test/java/com/rbs/ie/jsonrpc/InMemoryIntegrationTest.java).
+This changes the default behaviour of serializing all arguments using [Jackson Databind](https://github.com/FasterXML/jackson-databind). Instead the client registers a service using a derived transport (e.g. when using a pub / sub messaging system this would create a new channel name to send messages on). It then sends an address identifier that can be used to create a client on the server side. Examples can be seen in the [InMemoryIntegrationTest](src/test/java/com/iso/ie/jsonrpc/InMemoryIntegrationTest.java).
 
 **N.B.**: You must register callback types on both the server and the client side when using a distributed transport.
