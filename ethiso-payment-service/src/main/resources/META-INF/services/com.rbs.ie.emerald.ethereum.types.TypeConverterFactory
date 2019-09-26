@@ -1,0 +1,11 @@
+com.rbs.ie.emerald.ethereum.types.AddressTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.BoolTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.DynamicArrayTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.DynamicBytesTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.FixedTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.IntTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.StaticArrayTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.StaticBytesTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.StringTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.UFixedTypeConverterFactory
+com.rbs.ie.emerald.ethereum.types.UIntTypeConverterFactory

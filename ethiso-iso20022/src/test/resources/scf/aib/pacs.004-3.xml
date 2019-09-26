@@ -1,0 +1,2153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<S2SCTIcf:SCTIcfBlkCredTrf xmlns:S2SCTIcf="urn:S2SCTIcf:xsd:$SCTIcfBlkCredTrf"
+                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xsi:schemaLocation="urn:S2SCTIcf:xsd:$SCTIcfBlkCredTrf SCTIcfBlkCredTrf.xsd">
+    <S2SCTIcf:SndgInst>AIBKIE20</S2SCTIcf:SndgInst>
+    <S2SCTIcf:RcvgInst>ZYDOFRP0</S2SCTIcf:RcvgInst>
+    <S2SCTIcf:FileRef>ISCT160728057710</S2SCTIcf:FileRef>
+    <S2SCTIcf:SrvcId>SCT</S2SCTIcf:SrvcId>
+    <S2SCTIcf:TstCode>T</S2SCTIcf:TstCode>
+    <S2SCTIcf:FType>ICF</S2SCTIcf:FType>
+    <S2SCTIcf:FDtTm>2016-07-28T17:02:58</S2SCTIcf:FDtTm>
+    <S2SCTIcf:NumCTBlk>0</S2SCTIcf:NumCTBlk>
+    <S2SCTIcf:NumPCRBlk>0</S2SCTIcf:NumPCRBlk>
+    <S2SCTIcf:NumRFRBlk>1</S2SCTIcf:NumRFRBlk>
+    <S2SCTIcf:NumROIBlk>0</S2SCTIcf:NumROIBlk>
+
+    <S2SCTIcf:PmtRtr xmlns:S2SCTIcf="urn:S2SCTIcf:xsd:$SCTIcfBlkCredTrf"
+                     xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.004.001.02">
+        <GrpHdr>
+            <MsgId>BULKILN201607281802040442</MsgId>
+            <CreDtTm>2016-07-28T17:02:58</CreDtTm>
+            <NbOfTxs>27</NbOfTxs>
+            <TtlRtrdIntrBkSttlmAmt Ccy="EUR">50020522.55</TtlRtrdIntrBkSttlmAmt>
+            <IntrBkSttlmDt>2016-07-29</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+                <ClrSys>
+                    <Prtry>ST2</Prtry>
+                </ClrSys>
+            </SttlmInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BIC>AIBKIE20</BIC>
+                </FinInstnId>
+            </InstgAgt>
+        </GrpHdr>
+        <TxInf>
+            <RtrId>IBSRICT162100001</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>se5w3sd45dsd645646s6434</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>IMSTgsgchhsd365562323</OrgnlInstrId>
+            <OrgnlEndToEndId>Se2wmsdmmdsewe34433</OrgnlEndToEndId>
+            <OrgnlTxId>B3txnfia6633sdsdse6454233</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">50000003.00</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">50000003</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>FTBKGB20XXX</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC06</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                    <LclInstrm>
+                        <Cd>TRF</Cd>
+                    </LclInstrm>
+                    <CtgyPurp>
+                        <Cd>CASH</Cd>
+                    </CtgyPurp>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>acdfghjhghjkjhgfghjkjhgfghjkjhgdfghjhghjkjhgfghjkjhgfghjkjhgfghjcdfghjhghjkjh</Ustrd>
+                </RmtInf>
+                <UltmtDbtr>
+                    <Nm>BARCLAYS12BARCLAYS12BARCLAYS12BARCLAYS12BARCLAYS12BARCLAYS12BARCLAYS12</Nm>
+                    <PstlAdr>
+                        <Ctry>FR</Ctry>
+                        <AdrLine>PARIS FRANCE</AdrLine>
+                    </PstlAdr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>BARCFRP0XXX</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                    <CtryOfRes>FR</CtryOfRes>
+                </UltmtDbtr>
+                <Dbtr>
+                    <Nm>mnbvvbnmmnbvvbnmmnbvvvnnuuuuuuuttttrrhjuyytggg</Nm>
+                    <PstlAdr>
+                        <Ctry>FR</Ctry>
+                        <AdrLine>SOUTH OF FRANCE</AdrLine>
+                    </PstlAdr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>BARCFRP0XXX</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                    <CtryOfRes>FR</CtryOfRes>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>FR7630588610504746976010164</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BARCFRP0XXX</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>FTBKGB20XXX</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>mnbvvbnmmnbvvbnmmnmnbvbhjuyyuuuuuuutttggggg</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>AIB BANKCENTER</AdrLine>
+                        <AdrLine>Address line 2</AdrLine>
+                    </PstlAdr>
+                    <Id>
+                        <PrvtId>
+                            <DtAndPlcOfBirth>
+                                <BirthDt>1985-07-03</BirthDt>
+                                <CityOfBirth>Dublin</CityOfBirth>
+                                <CtryOfBirth>IE</CtryOfBirth>
+                            </DtAndPlcOfBirth>
+                        </PrvtId>
+                    </Id>
+                    <CtryOfRes>FR</CtryOfRes>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE67AIBK93104710698000</IBAN>
+                    </Id>
+                </CdtrAcct>
+                <UltmtCdtr>
+                    <Nm>Hello shivHello shivHello shivHello shivHello shivHello shivHello shiv</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>NEWCASTLE GALWAY</AdrLine>
+                    </PstlAdr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>FTBKGB20XXX</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                    <CtryOfRes>IE</CtryOfRes>
+                </UltmtCdtr>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000A</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001203</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255397</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082560722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">168</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">168</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661919 Frais medicaux/Medical expenses 46958 Liste/List 30004020 Decompte/Account sheet
+                        162
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>CASSIDY TERENCE EMMA</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>EFFERNOCK MANOR 7</AdrLine>
+                        <AdrLine>TRIM CO MEATH</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE78AIBK93218321821023</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000C</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001210</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255418</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174083260722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">181</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">181</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670662223 Frais medicaux/Medical expenses 138587 Liste/List 30004020 Decompte/Account sheet
+                        229
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>DAVID MILLS NORAH COSTELLO</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>CAHIR KILTIMAGH</AdrLine>
+                        <AdrLine>. CO MAYO</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE72AIBK93744464801035</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100002</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001209</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255539</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174083160722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">42.5</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">42.5</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661401 Frais medicaux/Medical expenses 74682 Liste/List 30004020 Decompte/Account sheet
+                        187
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>PADGRAIG FLYNN DOROTHY FLYNN</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>CARROWBRINOGUE LODGE</AdrLine>
+                        <AdrLine>. CASTLEBAR CO MAYO</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE08AIBK93708807390048</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100006</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001206</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255070</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082860722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">132</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">132</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661897 Frais medicaux/Medical expenses 359673 Liste/List 30004020 Decompte/Account sheet
+                        166
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>MAEVE COTTER MS</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>BRIARWOOD 9</AdrLine>
+                        <AdrLine>BRAY CO WICKLOW</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE04AIBK93348145911054</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000G</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001200</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255482</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082260722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">348.61</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">348.61</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661780 Frais medicaux/Medical expenses 120159 Liste/List 30004020 Decompte/Account sheet
+                        239
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>FITZPATRICK TOMAS</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>BEECHLAWNS 19</AdrLine>
+                        <AdrLine>MULLINGAR CO WESTMEATH</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE55AIBK93118713661187</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000L</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001243</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255737</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174086560722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">181.25</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">181.25</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661915 Frais medicaux/Medical expenses 46615 Liste/List 30004020 Decompte/Account sheet
+                        38
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>ANTONOPOULOS IOANNIS</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>BALNAGOWAN 21</AdrLine>
+                        <AdrLine>RANELAGH</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE42AIBK93367835985087</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100003</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001251</OrgnlInstrId>
+            <OrgnlEndToEndId>1692256209</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174087360722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">257.25</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">257.25</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661793 Frais medicaux/Medical expenses 119870 Liste/List 30004020 Decompte/Account sheet
+                        230
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>O CONNOR AIDAN MOORE MARIE</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>PEBBLE HILL 11</AdrLine>
+                        <AdrLine>MAYNOOTH CO KILDARE</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE91AIBK93115223442041</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000D</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001245</OrgnlInstrId>
+            <OrgnlEndToEndId>1692251419</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174086760722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">10500</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">10500</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670234732 30-JUN-2016/Acc EUCOMMIS- Invoice 3066</Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>T M S CONSULTANCY LTD</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>PERY SQUARE 5</AdrLine>
+                        <AdrLine>LIMERICK</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE25AIBK93524795365185</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000M</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001208</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255538</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174083060722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">110.5</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">110.5</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661400 Frais medicaux/Medical expenses 74682 Liste/List 30004020 Decompte/Account sheet
+                        186
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>PADGRAIG FLYNN DOROTHY FLYNN</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>CARROWBRINOGUE LODGE</AdrLine>
+                        <AdrLine>. CASTLEBAR CO MAYO</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE08AIBK93708807390048</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100007</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001248</OrgnlInstrId>
+            <OrgnlEndToEndId>1692254803</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174087060722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">57.84</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">57.84</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661902 Frais medicaux/Medical expenses 98605 Liste/List 30004020 Decompte/Account sheet
+                        140
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>RECORBET SYLVAINE</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>MARLFIELD GARDENS 45</AdrLine>
+                        <AdrLine>CABINTEELY CO DUBLIN</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE17AIBK93339242169076</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000H</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001244</OrgnlInstrId>
+            <OrgnlEndToEndId>1692251418</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174086660722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">850</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">850</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670234734 30-JUN-2016/Acc EUCOMMIS- Invoice 3065</Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>T M S CONSULTANCY LTD</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>PERY SQUARE 5</AdrLine>
+                        <AdrLine>LIMERICK</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE25AIBK93524795365185</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000N</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001207</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255537</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082960722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">177</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">177</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661399 Frais medicaux/Medical expenses 74682 Liste/List 30004020 Decompte/Account sheet
+                        185
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>PADGRAIG FLYNN DOROTHY FLYNN</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>CARROWBRINOGUE LODGE</AdrLine>
+                        <AdrLine>. CASTLEBAR CO MAYO</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE08AIBK93708807390048</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000E</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001246</OrgnlInstrId>
+            <OrgnlEndToEndId>1692256204</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174086860722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">141</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">141</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661236 Frais medicaux/Medical expenses 62551 Liste/List 30004020 Decompte/Account sheet
+                        628
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>BARBARA NOLAN MS</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>VICO ROAD SORRENTO VILLA DALKEY</AdrLine>
+                        <AdrLine>CO DUBLIN</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE86AIBK93339211149174</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100005</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001220</OrgnlInstrId>
+            <OrgnlEndToEndId>1692253902</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174084260722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">4930.8</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">4930.8</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670231711 05-JUL-2016/ARAMARK 88073 - PO 2015/50</Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>VECTOR WORKPLACE FACILITY MANAGEMENT</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>THE NOVUM BUILDING COLNSHAUGH</AdrLine>
+                        <AdrLine>FINGLAS DUBLIN11</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE40AIBK93363523899011</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100004</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001253</OrgnlInstrId>
+            <OrgnlEndToEndId>1692254124</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174087560722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">50.54</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">50.54</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661271 Frais medicaux/Medical expenses 117748 Liste/List 30004020 Decompte/Account sheet
+                        164
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>SHANAHAN MARY</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>GLENCAIRN AVENUE 22</AdrLine>
+                        <AdrLine>LEOPARDSTOWN DUBLIN 18</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE82AIBK93115227631342</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000J</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001201</OrgnlInstrId>
+            <OrgnlEndToEndId>1692256230</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082360722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">120</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">120</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661025 Frais medicaux/Medical expenses 153593 Liste/List 30004020 Decompte/Account sheet
+                        108
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>MCEVOY JOHN AND GERALDINE CO OFFICE 1 184 EUROPEAN COMMISSION</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>FVO GRANGE</AdrLine>
+                        <AdrLine>DUNSANY CO MEATH</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE90AIBK93218309183065</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100008</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001250</OrgnlInstrId>
+            <OrgnlEndToEndId>1692256909</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174087260722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">117.57</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">117.57</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670662323 Frais medicaux/Medical expenses 128020 Liste/List 30004020 Decompte/Account sheet
+                        155
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>KELLY TIMOTHY AND REBECCA</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>LAUREL AVENUE 4</AdrLine>
+                        <AdrLine>DUNDRUM DUBLIN 14</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE73AIBK93115215213079</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100009</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001247</OrgnlInstrId>
+            <OrgnlEndToEndId>1692254802</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174086960722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">61.5</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">61.5</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661901 Frais medicaux/Medical expenses 98605 Liste/List 30004020 Decompte/Account sheet
+                        139
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>RECORBET SYLVAINE</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>MARLFIELD GARDENS 45</AdrLine>
+                        <AdrLine>CABINTEELY CO DUBLIN</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE17AIBK93339242169076</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000K</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3622701003621</OrgnlInstrId>
+            <OrgnlEndToEndId>NOTPROVIDED</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0101/HA6391463596836907345597</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">500</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">500</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>FOR Rent August 2016</Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>MR AND MRS BARRY KEEGAN</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>SMISSTRAAT 8</AdrLine>
+                        <AdrLine>3080 TERVUREN</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE49310091227071</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>Dara Keegan</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>UCD BELFIELD</AdrLine>
+                        <AdrLine>Dublin 4 Dublin</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE23AIBK93015679585188</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000B</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001204</OrgnlInstrId>
+            <OrgnlEndToEndId>1692256212</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082660722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">107</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">107</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661976 Frais medicaux/Medical expenses 98616 Liste/List 30004020 Decompte/Account sheet
+                        189
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>O DONOGHUE HILARY</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>LEESON PARK</AdrLine>
+                        <AdrLine>DUBLIN 6</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE70AIBK93338439553068</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT162100001</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001221</OrgnlInstrId>
+            <OrgnlEndToEndId>1692253903</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174084360722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">408.4</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">408.4</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670233675 05-JUL-2016/ARAMARK 88078 - PO 2015/58</Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>VECTOR WORKPLACE FACILITY MANAGEMENT</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>THE NOVUM BUILDING COLNSHAUGH</AdrLine>
+                        <AdrLine>FINGLAS DUBLIN11</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE40AIBK93363523899011</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000F</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001202</OrgnlInstrId>
+            <OrgnlEndToEndId>1692255396</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082460722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">192</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">192</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661918 Frais medicaux/Medical expenses 46958 Liste/List 30004020 Decompte/Account sheet
+                        161
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>CASSIDY TERENCE EMMA</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>EFFERNOCK MANOR 7</AdrLine>
+                        <AdrLine>TRIM CO MEATH</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE78AIBK93218321821023</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000I</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001252</OrgnlInstrId>
+            <OrgnlEndToEndId>1692256210</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174087460722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">597.96</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">597.96</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670661794 Frais medicaux/Medical expenses 119870 Liste/List 30004020 Decompte/Account sheet
+                        229
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>O CONNOR AIDAN MOORE MARIE</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>PEBBLE HILL 11</AdrLine>
+                        <AdrLine>MAYNOOTH CO KILDARE</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE91AIBK93115223442041</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>GTSRICT16210000O</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280001410000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlInstrId>3642701001205</OrgnlInstrId>
+            <OrgnlEndToEndId>1692254804</OrgnlEndToEndId>
+            <OrgnlTxId>OVI/M/0402/399220112507174082760722</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">83.83</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">83.83</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKIE20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>1670662235 Frais medicaux/Medical expenses 98641 Liste/List 30004020 Decompte/Account sheet
+                        115
+                    </Ustrd>
+                </RmtInf>
+                <Dbtr>
+                    <Nm>COMMISSION EUROPEENNES</Nm>
+                    <PstlAdr>
+                        <Ctry>BE</Ctry>
+                        <AdrLine>RUE DE LA LOI 200</AdrLine>
+                        <AdrLine>1000 BRUXELLES</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>BE09310138600457</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BBRUBEBB</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKIE20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>WELZ CHRISTIAN</Nm>
+                    <PstlAdr>
+                        <Ctry>IE</Ctry>
+                        <AdrLine>CARRICKMINES AVENUE 42</AdrLine>
+                        <AdrLine>CARRICKMINES WOOD DUBLIN 18</AdrLine>
+                    </PstlAdr>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>IE30AIBK93338458125020</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>ITSRICT162100001</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280002710000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlEndToEndId>NOTPROVIDED</OrgnlEndToEndId>
+            <OrgnlTxId>PPFT01TC287N0003</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">103</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">103</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKGB20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>7579152 38100N 17/03/2011</Ustrd>
+                </RmtInf>
+                <UltmtDbtr>
+                    <Nm>UltmtDbtr Name</Nm>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>BARCGB20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </UltmtDbtr>
+                <Dbtr>
+                    <Nm>KARUNAKAR PATLOLLA</Nm>
+                    <PstlAdr>
+                        <Ctry>GB</Ctry>
+                        <AdrLine>Address111111111111111111111111111111111111111111111111111111111111111</AdrLine>
+                        <AdrLine>Address111111111111111111111111111111111111111111111111111111111111122</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>GB58BARC20792943100774</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BARCGB20</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKGB20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>Elena Prada</Nm>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>RO79RZBR0000060004226522</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+        <TxInf>
+            <RtrId>ITSRICT162100002</RtrId>
+            <OrgnlGrpInf>
+                <OrgnlMsgId>NSCT1607280002710000000000000000001</OrgnlMsgId>
+                <OrgnlMsgNmId>pacs.008</OrgnlMsgNmId>
+            </OrgnlGrpInf>
+            <OrgnlEndToEndId>NOTPROVIDED</OrgnlEndToEndId>
+            <OrgnlTxId>PP-OB-TXN-D2807-D05-B001</OrgnlTxId>
+            <OrgnlIntrBkSttlmAmt Ccy="EUR">100</OrgnlIntrBkSttlmAmt>
+            <RtrdIntrBkSttlmAmt Ccy="EUR">100</RtrdIntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <RtrRsnInf>
+                <Orgtr>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>AIBKGB20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </Orgtr>
+                <Rsn>
+                    <Cd>AC01</Cd>
+                </Rsn>
+            </RtrRsnInf>
+            <OrgnlTxRef>
+                <IntrBkSttlmDt>2016-07-28</IntrBkSttlmDt>
+                <SttlmInf>
+                    <SttlmMtd>CLRG</SttlmMtd>
+                </SttlmInf>
+                <PmtTpInf>
+                    <SvcLvl>
+                        <Cd>SEPA</Cd>
+                    </SvcLvl>
+                </PmtTpInf>
+                <RmtInf>
+                    <Ustrd>7579152 38100N 17/03/2011</Ustrd>
+                </RmtInf>
+                <UltmtDbtr>
+                    <Nm>UltmtDbtr Name</Nm>
+                    <Id>
+                        <OrgId>
+                            <BICOrBEI>BARCGB20</BICOrBEI>
+                        </OrgId>
+                    </Id>
+                </UltmtDbtr>
+                <Dbtr>
+                    <Nm>KARUNAKAR PATLOLLA</Nm>
+                    <PstlAdr>
+                        <Ctry>GB</Ctry>
+                        <AdrLine>Address111111111111111111111111111111111111111111111111111111111111111</AdrLine>
+                        <AdrLine>Address111111111111111111111111111111111111111111111111111111111111122</AdrLine>
+                    </PstlAdr>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>GB58BARC20792943100774</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <BIC>BARCGB20</BIC>
+                    </FinInstnId>
+                </DbtrAgt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>AIBKGB20</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>Elena Prada</Nm>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>RO79RZBR0000060004226522</IBAN>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInf>
+    </S2SCTIcf:PmtRtr>
+
+</S2SCTIcf:SCTIcfBlkCredTrf>

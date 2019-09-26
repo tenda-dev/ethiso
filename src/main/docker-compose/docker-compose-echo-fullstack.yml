@@ -1,0 +1,58 @@
+version: '2'
+
+networks:
+  echobot-test:
+
+services:
+
+#Test Bank A stack
+  payment-service-a:
+    image: emerald-payment-service:${project.version}
+    ports:
+      - 5400:4567
+      - 4001:4001
+    command: ["rabbitmq", "dont-need-this", "geth-docker-a:8545", "The super secret password = wibble", "4567", "5678", "http://payment-service-b:5678/config"  ]
+    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "emerald-payment-service-${project.version}.jar", "com.rbs.ie.emerald.ethereum.PaymentServiceMain"]
+    networks:
+      echobot-test:
+  
+  geth-docker-a:
+    image: geth-docker:${project.version}
+    networks:
+      echobot-test:  
+
+
+#Echobot stack
+
+  echobot:
+    image: emerald-echobot:${project.version}
+    ports:
+      - 4000:4000
+    networks:
+      echobot-test:
+    #entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=y", "-cp", "emerald-echobot-${project.version}.jar", "com.rbs.ie.emerald.echobot.EchoBot"]
+    command: ["rabbitmq", "payment-service-b", "echobic"]    
+ 
+  payment-service-b:
+    image: emerald-payment-service:${project.version}
+    ports:
+      - 6400:4567
+    command: ["rabbitmq", "payment-service-b", "geth-docker-b:8545", "The super secret password = wibble", "4567", "5678"]
+    networks:
+      echobot-test:
+    
+  geth-docker-b:
+    image: geth-docker:${project.version}
+    networks:
+      echobot-test:
+
+#Middleware
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    restart: "unless-stopped"
+    ports:
+      - "15672:15672"
+      - "127.0.0.1:5672:5672"
+    networks:
+      echobot-test:

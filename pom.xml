@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.rbs.ie</groupId>
+	<artifactId>emerald-mvp</artifactId>
+	<version>1.1.4-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>json-rpc-core</module>
+		<module>json-rpc-http</module>
+		<module>json-rpc-rabbitmq</module>
+		<module>json-rpc-vertx</module>
+		<module>geth-docker</module>
+		<module>emerald-parent</module>
+		<module>emerald-api</module>
+		<module>emerald-core</module>
+		<module>emerald-echobot</module>
+		<module>emerald-iso20022</module>
+		<module>emerald-payment-service</module>
+		<module>emerald-test-coverage</module>
+		<module>emerald-ethstats</module>
+	</modules>
+
+	<build>
+
+		<plugins>
+		
+				<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>copy-docker-compose-files</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<resources>
+								<resource>
+									<directory>src/main/docker-compose</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
+							<outputDirectory>target/docker-compose</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
+					<preparationGoals>clean install failsafe:integration-test failsafe:verify</preparationGoals>
+				</configuration>
+			</plugin>
+
+
+
+
+		</plugins>
+
+	</build>
+
+	<scm>
+		<connection>scm:git:https://gitlab.com/emerald-platform/emerald.git</connection>
+	  <tag>HEAD</tag>
+  </scm>
+
+</project>

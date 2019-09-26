@@ -1,0 +1,23 @@
+Usage:
+
+PaymentService <rabbitHost> <routingKey> <gethRpc> <coinbasePassword> <restPort> <configPort> [ <configServiceUrl> ]
+
+The PaymentService has two modes of operation.
+
+The first mode, taking six arguments, designates this node as the primary node:
+
+	* Upon startup the node will connect to rabbit at rabbitHost and listen on routingKey
+	* It will also connect to geth over JSON RCP at the gethRpc (in host:port format)
+	* It will create a coinbase account if neccessary (secured with the specified password) or unlock the account if it exists
+	* Begin mining
+	* Install the necessary contracts and store the Registrar address for when the process is restarted
+	* Expose it's configuration by RPC on http://localhost:<configPort>/config
+	
+The second mode, taking seven arguments, designates this node as a secondary node:
+
+	* Upon startup the node will connect to rabbit at rabbitHost and listen on routingKey
+	* It will also connect to geth over JSON RCP at the gethRpc (in host:port format)
+	* It will create a coinbase account if neccessary (secured with the specified password) or unlock the account if it exists
+	* It will connect to the specified configServiceUrl and use it to configure itself
+	* Wait to complete syncing and then begin mining
+	* Compile the Registrar contract and attach to the same instance as the primary node

@@ -1,0 +1,41 @@
+version: '2'
+
+networks:
+  argent-testnet:
+
+services:
+
+#Echobot stack
+
+  echobot-argent:
+    image: emerald-echobot:${project.version}
+    networks:
+      argent-testnet:
+    command: ["rabbitmq-argent", "payment-service-argent", "echobic"]  
+
+
+  payment-service-argent:
+    image: emerald-payment-service:${project.version}
+    ports:
+      - 5400:5678
+    command: ["rabbitmq-argent", "payment-service-argent", "geth-docker-argent:8545", "The super secret password = wibble", "4567", "5678"]
+    networks:
+      argent-testnet:
+    
+  geth-docker-argent:
+    image: geth-docker:${project.version}
+    networks:
+      argent-testnet:
+    ports:
+     - 5401:30303
+
+#Middleware
+
+  rabbitmq-argent:
+    image: "rabbitmq:3-management"
+    restart: "unless-stopped"
+    ports:
+      - "15672:15672"
+      - "127.0.0.1:5672:5672"
+    networks:
+      argent-testnet:

@@ -1,0 +1,13 @@
+**/bin/
+**/target/
+**/.idea/
+**/*.iml
+**/.settings/
+**/.classpath
+**/.project
+**/.vertx/
+**/node_modules/
+.classpath
+.project
+npm-debug.log
+**/.DS_Store

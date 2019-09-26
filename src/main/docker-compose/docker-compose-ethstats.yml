@@ -1,0 +1,27 @@
+version: '2'
+
+networks:
+  default:
+    external:
+      name: dockercompose_argent-testnet
+
+services:
+
+  #ethstats
+  ethstats-argent:
+    image: imaccloud/ethstats:0.0.1
+    ports:
+      - 3000:3000
+    environment: 
+      - WS_SECRET=5d48c7aa-9b96-4d3c-bb9a-cd085998ccd9
+      
+  ethstats-server-argent:
+    image: emerald-ethstats:${project.version}
+    environment: 
+      - RPC_PORT=8545
+      - RPC_HOST=geth-docker-argent
+      - WS_SERVER=http://ethstats-argent:3000
+      - WS_SECRET=5d48c7aa-9b96-4d3c-bb9a-cd085998ccd9
+      - INSTANCE_NAME=geth-docker-argent
+
+

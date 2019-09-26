@@ -1,0 +1,3 @@
+FROM geth-docker-nodag:${project.version}
+
+RUN geth makedag 0 ~/.ethash

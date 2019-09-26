@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:Document xmlns:p="urn:iso:std:iso:20022:tech:xsd:camt.029.001.06"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <p:RsltnOfInvstgtn>
+        <p:Assgnmt>
+            <p:Id>p:Id</p:Id>
+            <p:Assgnr>
+                <p:Agt>
+                    <p:FinInstnId>
+                        <BIC>p:FinInstID1</BIC>
+                    </p:FinInstnId>
+                </p:Agt>
+            </p:Assgnr>
+            <p:Assgne>
+                <p:Agt>
+                    <p:FinInstnId>
+                        <BIC>p:FinInstID2</BIC>
+                    </p:FinInstnId>
+                </p:Agt>
+
+            </p:Assgne>
+            <p:CreDtTm>2001-12-31T10:15:20</p:CreDtTm>
+        </p:Assgnmt>
+        <p:Sts>
+            <p:Conf>CNCL</p:Conf>
+        </p:Sts>
+        <p:CxlDtls>
+            <p:TxInfAndSts>
+                <p:CxlStsId>p:CxlStsId</p:CxlStsId>
+                <p:OrgnlGrpInf>
+                    <p:OrgnlMsgId>p:OrgnlMsgId</p:OrgnlMsgId>
+                    <p:OrgnlMsgNmId>p:OrgnlMsgNmId</p:OrgnlMsgNmId>
+                </p:OrgnlGrpInf>
+                <p:OrgnlInstrId>p:OrgnlInstrId</p:OrgnlInstrId>
+                <p:OrgnlEndToEndId>p:OrgnlEndToEndId</p:OrgnlEndToEndId>
+                <p:OrgnlTxId>p:OrgnlTxId</p:OrgnlTxId>
+                <p:TxCxlSts>RJCR</p:TxCxlSts>
+                <p:CxlStsRsnInf>
+                    <p:Orgtr>
+                        <p:Id>
+                            <p:OrgId>
+                                <p:BICorBEI>p:AnyBIC</p:BICorBEI>
+                            </p:OrgId>
+                        </p:Id>
+                    </p:Orgtr>
+                    <p:Rsn>
+                        <p:Prtry>ABCD</p:Prtry>
+                    </p:Rsn>
+                </p:CxlStsRsnInf>
+
+                <p:OrgnlTxRef>
+                    <p:IntrBkSttlmAmt Ccy="CCY">0.0</p:IntrBkSttlmAmt>
+                    <p:IntrBkSttlmDt>2001-01-01</p:IntrBkSttlmDt>
+
+                    <p:SttlmInf>
+                        <p:SttlmMtd>INDA</p:SttlmMtd>
+                        <p:ClrSys>
+                            <p:Prtry>p:Cd</p:Prtry>
+                        </p:ClrSys>
+                    </p:SttlmInf>
+
+                    <p:PmtTpInf>
+                        <p:SvcLvl>
+                            <p:Cd>p:Cd</p:Cd>
+                        </p:SvcLvl>
+                    </p:PmtTpInf>
+
+                    <p:RmtInf>
+                        <p:Ustrd>p:Ustrd</p:Ustrd>
+                    </p:RmtInf>
+
+                    <p:Dbtr>
+                        <p:Nm>p:Nm</p:Nm>
+                        <p:Id>
+                            <p:OrgId>
+                                <p:Othr>
+                                    <p:Id>p:Id</p:Id>
+                                </p:Othr>
+                            </p:OrgId>
+                        </p:Id>
+                    </p:Dbtr>
+
+                    <p:DbtrAcct>
+                        <p:Id>
+                            <p:IBAN>p:IBAN</p:IBAN>
+                        </p:Id>
+                    </p:DbtrAcct>
+
+                    <p:DbtrAgt>
+                        <p:FinInstnId>
+                            <p:BIC>p:BICF-DbtrAgt</p:BIC>
+                        </p:FinInstnId>
+                    </p:DbtrAgt>
+
+                    <p:CdtrAgt>
+                        <p:FinInstnId>
+                            <p:BIC>p:BICF-CdtrAgt</p:BIC>
+                        </p:FinInstnId>
+                    </p:CdtrAgt>
+
+                    <p:Cdtr>
+                        <p:Nm>p:Nm</p:Nm>
+                        <p:PstlAdr>
+                            <p:Ctry>p:Ctry</p:Ctry>
+                        </p:PstlAdr>
+                    </p:Cdtr>
+                    <p:CdtrAcct>
+                        <p:Id>
+                            <p:IBAN>p:IBAN4</p:IBAN>
+                        </p:Id>
+                    </p:CdtrAcct>
+                </p:OrgnlTxRef>
+            </p:TxInfAndSts>
+        </p:CxlDtls>
+     </p:RsltnOfInvstgtn>
+</p:Document>

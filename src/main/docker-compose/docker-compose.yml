@@ -1,0 +1,33 @@
+version: '2'
+
+networks:
+  main:
+  
+services:
+
+  geth-docker-a:
+    image: geth-docker:${project.version}
+    networks:
+      main:
+    
+  geth-docker-b:
+    image: geth-docker:${project.version}
+    networks:
+      main:
+
+  payment-service-a:
+    image: emerald-payment-service:${project.version}
+    ports:
+      - 4567:4567
+    command: ["rabbitmq", "routing-key", "geth-docker-a:8545", "The super secret password = wibble", "4567", "5678"]
+    networks:
+      main:
+    
+  payment-service-b:
+    image: emerald-payment-service:${project.version}
+    ports:
+      - 4568:4567
+    command: ["rabbitmq", "routing-key", "geth-docker-b:8545", "The super secret password = wibble", "4567", "5678", "http://payment-service-a:5678/config" ]
+    networks:
+      main:
+      

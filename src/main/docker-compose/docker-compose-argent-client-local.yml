@@ -1,0 +1,42 @@
+version: '2'
+
+networks:
+  argent-client:
+  argent-testnet:
+    external:
+      name: dockercompose_argent-testnet
+
+services:
+
+#client stack
+
+  payment-service-argent-client:
+    image: emerald-payment-service:${project.version}
+    ports:
+      - 6400:4567
+    command: ["rabbitmq", "payment-service-argent-client", "geth-docker-argent-client:8545", "The super secret password = wibble", "4567", "5678", "http://payment-service-argent:5678/config" ]
+    # entrypoint: ["/usr/bin/java", "-Xdebug", "-Xrunjdwp:server=y,transport=dt_socket,address=4001,suspend=y", "-cp", "emerald-payment-service-${project.version}", "com.rbs.ie.emerald.ethereum.PaymentServiceMain"]
+    networks:
+      argent-client:
+      argent-testnet:
+    
+
+  geth-docker-argent-client:
+    image: geth-docker:${project.version}
+    ports:
+      - 6401:30303
+      - 6402:8545
+    networks:
+      argent-client:
+    command: ["geth", "--networkid", "31415926", "--rpc", "--rpcaddr", "0.0.0.0", "--rpcapi", "eth,net,web3,admin,miner,personal", "--bootnodes", "\"\""]
+
+#Middleware
+
+  rabbitmq-argent:
+    image: "rabbitmq:3-management"
+    restart: "unless-stopped"
+    ports:
+      - "16672:15672"
+      - "127.0.0.1:5672:6672"
+    networks:
+      argent-client:

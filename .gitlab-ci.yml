@@ -1,0 +1,62 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  tags:
+    - script-maven
+  script:
+    - mvn install -B -DskipTests
+  stage: build
+  environment: development
+
+test:
+  tags:
+    - script-maven
+  script:
+    - mvn install
+    - grep "Total" emerald-test-coverage/target/site/jacoco-aggregate/index.html
+  stage: test
+  artifacts:
+    paths:
+      - emerald-test-coverage/target/site/jacoco-aggregate
+  environment: development
+
+deploy-argent-testnet:
+  stage: deploy
+  when: manual
+  tags:
+    - argent-testnet
+  script:
+    - mvn install -B -DskipTests
+    - docker-compose -f target/docker-compose/docker-compose-argent-testnet.yml stop
+    - docker-compose -f target/docker-compose/docker-compose-argent-testnet.yml up -d 
+  environment: test
+  only:
+    - tags
+
+deploy-argent-testnet-clean:
+  stage: deploy
+  when: manual
+  tags:
+    - argent-testnet
+  script:
+    - mvn clean install -B -DskipTests
+    - docker-compose -f target/docker-compose/docker-compose-argent-testnet.yml down
+    - docker-compose -f target/docker-compose/docker-compose-argent-testnet.yml up -d 
+  environment: test
+  only:
+    - tags
+
+deploy-argent-ethstats:
+  stage: deploy
+  when: manual
+  tags:
+    - argent-testnet
+  script:
+    - mvn clean install -B -DskipTests
+    - docker-compose -f target/docker-compose/docker-compose-ethstats.yml down
+    - docker-compose -f target/docker-compose/docker-compose-ethstats.yml up -d 
+  environment: test
+  
