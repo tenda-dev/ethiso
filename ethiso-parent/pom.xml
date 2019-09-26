@@ -22,7 +22,7 @@
 		<mockito.version>1.9.5</mockito.version>
 		<qpid.version>0.28</qpid.version>
 		<slf.version>1.7.21</slf.version>
-		<spark.version>2.5</spark.version>
+		<spark.version>2.7.2</spark.version>
 		<vertx.version>3.2.1</vertx.version>
 
 		<integration.test.pattern>**/*IntegrationTest.java</integration.test.pattern>
